@@ -18,6 +18,7 @@
         <property name="hbm2ddl.auto">update</property>
       
         <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.format_sql">true</property>
       
         <mapping class="herencia.joined.Developer" />
         <mapping class="herencia.joined.Employee" />  
